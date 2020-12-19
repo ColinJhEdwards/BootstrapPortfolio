@@ -18,7 +18,7 @@ html {
 }
 
 .header_area .main-menu .navbar {
-  padding: 1rem 5rem;
+  padding: 1rem 3rem;
 }
 
 .header_area .main-menu .nav-item .nav-link {
@@ -97,7 +97,32 @@ html {
 /* media queries */
 
 @media screen and (max-width: 963px) {
+  /* ======Header Section========*/
+  .header_area .main-menu .navbar {
+    padding: 1rem 0rem;
+  }
+  .header_area .main-menu .navbar-nav {
+    margin-top: 20px;
+  }
   .header_area .main-menu .nav-item .nav-link:hover {
     padding-right: 20px;
+  }
+  .header_area .container-fluid img {
+    display: none;
+  }
+  /*=======About me section=========*/
+  .aboutMe .container h2 {
+    text-align: center;
+  }
+  /*======Portfolio Section======*/
+  .portfolio .container img {
+    height: 10rem;
+    width: 10rem;
+  }
+  .portfolio .container {
+    display: flex;
+  }
+  .portfolio .container .col {
+    margin-left: 2rem;
   }
 }
