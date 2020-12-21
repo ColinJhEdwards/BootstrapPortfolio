@@ -147,6 +147,16 @@ html {
   .aboutMe .container h2 {
     text-align: center;
   }
+
+  .aboutMe .container img {
+    height: 35rem;
+    margin-left: 3rem;
+  }
+
+  .aboutMe .container .pTags {
+    margin-top: 2rem;
+    text-align: center;
+  }
   /*======Portfolio Section======*/
   .portfolio .container img {
     height: 10rem;
