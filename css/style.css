@@ -144,13 +144,18 @@ html {
     display: none;
   }
   /*=======About me section=========*/
+
+  .aboutMe .container .col {
+    margin: 0;
+    padding: 0;
+  }
   .aboutMe .container h2 {
     text-align: center;
   }
 
   .aboutMe .container img {
     height: 35rem;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
   }
 
   .aboutMe .container .pTags {
@@ -166,7 +171,7 @@ html {
     display: flex;
   }
   .portfolio .container .col {
-    margin-left: 2rem;
+    margin-left: 0.3rem;
   }
   /*=========Contact Section=======*/
   .contact .container {
