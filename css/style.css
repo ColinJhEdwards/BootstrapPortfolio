@@ -7,6 +7,16 @@ html {
   animation: fade 1s ease;
 }
 
+.footerSection {
+  min-height: 10vh;
+  background: dimgray;
+  font-size: 0.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Nav section */
 
 .header_area .container-fluid img {
@@ -83,10 +93,11 @@ html {
   margin-right: 1rem;
 }
 
-/* ==========Contact Section==========*/
+/*===========Contact Section==========*/
 
 .contact .container {
   width: 30%;
+  min-height: 90vh;
 }
 
 .contact .container h2 {
@@ -95,7 +106,8 @@ html {
 }
 
 .contact .container button {
-  display: flex;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
 }
 
 .contact .container form {
@@ -145,5 +157,9 @@ html {
   }
   .portfolio .container .col {
     margin-left: 2rem;
+  }
+  /*=========Contact Section=======*/
+  .contact .container {
+    width: 80%;
   }
 }
