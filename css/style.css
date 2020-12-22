@@ -1,5 +1,5 @@
-html {
-  font-family: "Roboto" sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 .portfolio,
@@ -64,23 +64,27 @@ html {
   min-height: 90vh;
 }
 
-.aboutMe .container p {
-  font-size: 1.2rem;
+.aboutMe .container-fluid p {
+  font-size: 1.5rem;
   line-height: 35px;
+  font-family: "roboto" serif;
 }
 
-.aboutMe .container img {
+.aboutMe .container-fluid img {
   height: 35rem;
 }
 
-.aboutMe .container h2 {
+.aboutMe .container-fluid h2 {
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Roboto", sans-serif;
 }
 
-.aboutMe .container .row {
+.aboutMe .container-fluid .row {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Portfolio Section */
@@ -151,20 +155,18 @@ html {
   }
   /*=======About me section=========*/
 
-  .aboutMe .container .col {
-    margin: 0;
+  .aboutMe .container-fluid .col {
     padding: 0;
   }
-  .aboutMe .container h2 {
+  .aboutMe .container-fluid h2 {
     text-align: center;
   }
 
-  .aboutMe .container img {
-    height: 25rem;
-    /* margin-left: 3rem; */
+  .aboutMe .container-fluid img {
+    height: 20rem;
   }
 
-  .aboutMe .container .pTags {
+  .aboutMe .container-fluid .pTags {
     margin-top: 2rem;
     text-align: center;
   }
