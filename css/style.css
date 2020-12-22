@@ -150,9 +150,7 @@ body {
   .header_area .main-menu .nav-item .nav-link:hover {
     padding-right: 20px;
   }
-  .header_area .container-fluid img {
-    display: none;
-  }
+
   /*=======About me section=========*/
 
   .aboutMe .container-fluid .col {
