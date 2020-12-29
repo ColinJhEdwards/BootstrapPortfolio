@@ -62,25 +62,26 @@ body {
 
 .aboutMe {
   min-height: 90vh;
+  background: lightgray;
 }
 
-.aboutMe .container-fluid p {
+.aboutMe .container p {
   font-size: 1.5rem;
   line-height: 35px;
   font-family: "roboto" serif;
 }
 
-.aboutMe .container-fluid img {
+.aboutMe .container img {
   height: 35rem;
 }
 
-.aboutMe .container-fluid h2 {
+.aboutMe .container h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-family: "Roboto", sans-serif;
 }
 
-.aboutMe .container-fluid .row {
+.aboutMe .container .row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,6 +92,7 @@ body {
 
 .portfolio {
   min-height: 100vh;
+  background-color: lightgray;
 }
 
 .portfolio .container img {
@@ -153,18 +155,18 @@ body {
 
   /*=======About me section=========*/
 
-  .aboutMe .container-fluid .col {
+  .aboutMe .container .col {
     padding: 0;
   }
-  .aboutMe .container-fluid h2 {
+  .aboutMe .container h2 {
     text-align: center;
   }
 
-  .aboutMe .container-fluid img {
+  .aboutMe .container img {
     height: 20rem;
   }
 
-  .aboutMe .container-fluid .pTags {
+  .aboutMe .container .pTags {
     margin-top: 2rem;
     text-align: center;
   }
