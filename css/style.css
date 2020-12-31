@@ -3,7 +3,8 @@ body {
 }
 
 .portfolio,
-.aboutMe {
+.aboutMe,
+.contact {
   animation: fade 1s ease;
 }
 
