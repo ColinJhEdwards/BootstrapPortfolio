@@ -1,13 +1,10 @@
 # bootstrap-portfolio
+
 Practice with using bootstrap
 
 [Link to deployed application] https://colinjhedwards.github.io/bootstrap-portfolio/index.html
 
-![Screenshot of website] (images/website-preview.png)
-
-
-
-
+![Screenshot of website](images/website-preview.png)
 
 Colin Edwards bootstrap-practice-portfolio
 
