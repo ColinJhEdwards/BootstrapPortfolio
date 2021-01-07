@@ -74,9 +74,18 @@ body {
   font-family: "roboto" serif;
 }
 
-.aboutMe .container img {
-  height: 35rem;
+.colin {
+  height: 500px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  height: 50px;
+  padding-left: 2rem;
+}
+
+.icons {
+  padding: 2rem;
 }
 
 .aboutMe .container h2 {
