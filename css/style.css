@@ -26,6 +26,8 @@ body {
 
 .header_area .main-menu .navbar .navbar-brand {
   padding: 0 2rem 0 5rem;
+  color: white;
+  font-size: 2rem;
 }
 
 .header_area .main-menu .navbar {
@@ -74,6 +76,7 @@ body {
 
 .aboutMe .container img {
   height: 35rem;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .aboutMe .container h2 {
@@ -99,6 +102,7 @@ body {
 .portfolio .container img {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .portfolio .col {
