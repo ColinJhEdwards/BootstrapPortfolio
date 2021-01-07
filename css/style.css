@@ -176,8 +176,12 @@ body {
     text-align: center;
   }
 
-  .aboutMe .container img {
-    height: 20rem;
+  .icon {
+    height: 50px;
+  }
+
+  .colin {
+    height: 300px;
   }
 
   .aboutMe .container .pTags {
